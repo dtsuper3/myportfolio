@@ -10,9 +10,9 @@ const Main = () => (
   <Switch>
     <Route exact path="/myportfolio" component={Landingpage} />
     <Route path="/myportfolio/aboutme" component={Aboutme} />
-    <Route path="/contacts" component={Contacts} />
-    <Route path="/resume" component={Resume} />
-    <Route path="/projects" component={Projects} />
+    <Route path="/myportfolio/contacts" component={Contacts} />
+    <Route path="/myportfolio/resume" component={Resume} />
+    <Route path="/myportfolio/projects" component={Projects} />
   </Switch>
 );
 

@@ -11,7 +11,7 @@ class App extends Component {
           <Header
             className="header-color"
             title={
-              <Link style={{ textDecoration: "none" }} to="/">
+              <Link style={{ textDecoration: "none" }} to="/myportfolio">
                 Portfolio
               </Link>
             }
@@ -19,24 +19,24 @@ class App extends Component {
           >
             {/*waterfall,scroll*/}
             <Navigation>
-              <Link to="/resume">Resume</Link>
-              <Link to="/aboutme">About me</Link>
-              <Link to="/projects">Projects</Link>
-              <Link to="/contacts">Contacts</Link>
+              <Link to="/myportfolio/resume">Resume</Link>
+              <Link to="/myportfolio/aboutme">About me</Link>
+              <Link to="/myportfolio/projects">Projects</Link>
+              <Link to="/myportfolio/contacts">Contacts</Link>
             </Navigation>
           </Header>
           <Drawer
             title={
-              <Link style={{ textDecoration: "none" }} to="/">
+              <Link style={{ textDecoration: "none" }} to="/myportfolio">
                 Portfolio
               </Link>
             }
           >
             <Navigation>
-              <Link to="/resume">Resume</Link>
-              <Link to="/aboutme">About me</Link>
-              <Link to="/projects">Projects</Link>
-              <Link to="/contacts">Contacts</Link>
+              <Link to="/myportfolio/resume">Resume</Link>
+              <Link to="/myportfolio/aboutme">About me</Link>
+              <Link to="/myportfolio/projects">Projects</Link>
+              <Link to="/myportfolio/contacts">Contacts</Link>
             </Navigation>
           </Drawer>
           <Content>

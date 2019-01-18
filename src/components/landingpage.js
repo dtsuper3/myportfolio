@@ -6,7 +6,11 @@ class Landingpage extends Component {
       <div style={{ width: "100%", margin: "auto" }}>
         <Grid className="landing-grid">
           <Cell col={12}>
-            <img src="https://raw.githubusercontent.com/dtsuper3/myportfolio/master/public/avatar.png" />
+            <img
+                src="https://raw.githubusercontent.com/dtsuper3/myportfolio/master/public/avatar.png"
+                alt="avatar"
+                style={{ height: "250px" }}
+              />
             <div className="banner-text">
               <h1>Full Stack Web Developer</h1>
               <hr />
