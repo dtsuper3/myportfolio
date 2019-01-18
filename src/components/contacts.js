@@ -7,7 +7,7 @@ class Contacts extends Component {
         <Grid className="contact-grid">
           <Cell col={6}>
             <h2>Deepak Thapa</h2>
-            <img src="./avatar.png" alt="avatar" style={{ height: "250px" }} />
+            <img src="https://raw.githubusercontent.com/dtsuper3/myportfolio/master/public/avatar.png" alt="avatar" style={{ height: "250px" }} />
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni
               ipsam nemo, perferendis deserunt deleniti ratione, soluta dolores
