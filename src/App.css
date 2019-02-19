@@ -52,17 +52,32 @@
   justify-content: space-between;
   width: 50%;
   margin: auto;
+  transition: 0.3s all ease-in-out;
 }
-
-.social-links i{
+.social-links a:hover{  
+  transform: scale(1.2);
+}
+.social-links i{  
   color: white;
   font-size: 5em;
   padding: 8px;
 }
-
-.projects-grid{
-  display: flex;
+.social-links i:hover{
+  color: #aaa;
 }
+/* projects page start */
+.projects-grid{
+  margin: 40px !important;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between;   */
+}
+
+.card{
+  margin: 30px !important;
+}
+
+/* project page end */
 /* Contacts page css */
 .contact-body{
   margin: auto;  
@@ -98,17 +113,43 @@
   width: 50%;
 }
 
+.contact-list{
+  /* border:1px solid black; */
+  padding: 0 22%;
+}
 .contact-list i{  
-  font-size: 66px;
-  padding-right: 5rem;
+  font-size: 66px;  
+  padding-right: 2rem;
 }
 /* Contacts page css */
 
 /* Resume page css */
+.resume-left-col a{
+  text-decoration: none;
+  transition: 0.2s all ease-in-out;
+}
+
+.resume-left-col a:hover{
+  color: #333;
+  text-decoration: none;
+}
+
 .resume-right-col{
   background: #393235;
   color: white;
   padding: 2em;
+}
+
+.resume-right-col a{  
+  text-decoration: none;  
+  transition: 0.2s all linear;
+}
+
+
+.resume-right-col a:hover{
+  color:#aaa;
+  text-decoration: none;
+  font-size: 1.2rem;
 }
 /* Resume page css */
 @media only screen and (max-width: 800px) {
@@ -131,4 +172,15 @@
   .projects-grid .card{
     margin-bottom: 20px !important;    
   }
+
+  .projects-grid .card .link{
+    text-decoration: none;
+  }
+  .contact-list{    
+    padding: 0
+  }
+  .contact-list i{  
+    font-size: 40px;
+    /* padding-right: 2rem; */
+  }  
 }

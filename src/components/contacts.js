@@ -9,9 +9,7 @@ class Contacts extends Component {
             <h2>Deepak Thapa</h2>
             <img src="https://raw.githubusercontent.com/dtsuper3/myportfolio/master/public/avatar.png" alt="avatar" style={{ height: "250px" }} />
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni
-              ipsam nemo, perferendis deserunt deleniti ratione, soluta dolores
-              sit recusandae assumenda eaque laborum, voluptatibus magnam quos.
+              
             </p>
           </Cell>
           <Cell col={6}>
@@ -20,19 +18,15 @@ class Contacts extends Component {
             <div className="contact-list">
               <List>
                 <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: "30px", fontFamily: "Anton" }}
-                  >
-                    <i className="fa fa-phone-square" aria-hidden="true" />
-                    +918700857683
+                  <ListItemContent>
+                    <i className="fa fa-phone-square" aria-hidden="true" style={{ color:'blue' }}/>
+                    <span style={{ fontSize: "22px", fontFamily: "Anton" }}>+918700857683</span>
                   </ListItemContent>
                 </ListItem>
                 <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: "30px", fontFamily: "Anton" }}
-                  >
-                    <i className="fa fa-envelope" aria-hidden="true" />
-                    dtsuper3@gmail.com
+                  <ListItemContent>
+                    <i className="fa fa-envelope" aria-hidden="true" style={{ color:'#fd1' }}/>
+                    <span style={{ fontSize: "22px", fontFamily: "Anton" }}>dtsuper3@gmail.com</span>
                   </ListItemContent>
                 </ListItem>
               </List>
