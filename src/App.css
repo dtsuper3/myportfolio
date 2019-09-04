@@ -1,186 +1,178 @@
-.header-color{
-  background: #833ab4;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+.header-color {
+  background-color: #333333 !important;
 }
 
-.landing-grid{
-  background: #833ab4;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+.landing-grid {
+  background: url("./img/back1.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   text-align: center;
-  position: fixed;
-  top: 10;
-  left: 0;
-  width: 100%;
-  height: 100%;
 }
 
-.avatar-img{
-  height: 250px;
-  margin-top: 5em;
-}
-
-.banner-text{
+.banner-text {
   background-color: black;
-  opacity: .8;
+  opacity: 0.75;
   width: 75%;
-  margin: auto;
-  border-radius: 10px;  
+  margin: 150px auto;
+  padding: 10px;
+  border-radius: 10px;
 }
 
-.banner-text h1{
+.banner-text h1 {
   font-size: 66px;
   font-weight: bold;
-  color: white;  
+  color: white;
 }
 
-.banner-text hr{
+.banner-text hr {
   border-top: 5px dotted white;
   width: 50%;
   margin: auto;
 }
 
-.banner-text p{
+.banner-text p {
   color: white;
   font-size: 20px;
   padding: 1em;
 }
 
-.social-links{
+.social-links {
   display: flex;
   justify-content: space-between;
   width: 50%;
   margin: auto;
   transition: 0.3s all ease-in-out;
 }
-.social-links a:hover{  
+.social-links a:hover {
   transform: scale(1.2);
 }
-.social-links i{  
+.social-links i {
   color: white;
   font-size: 5em;
   padding: 8px;
 }
-.social-links i:hover{
+.social-links i:hover {
   color: #aaa;
 }
 /* projects page start */
-.projects-grid{
+.projects-grid {
   margin: 40px !important;
   display: flex;
   flex-wrap: wrap;
   /* justify-content: space-between;   */
 }
 
-.card{
+.card {
   margin: 30px !important;
 }
 
 /* project page end */
 /* Contacts page css */
-.contact-body{
-  margin: auto;  
+.contact-body {
+  margin: auto;
   /* position: fixed; */
   text-align: center;
   width: 100%;
   height: 100%;
   justify-content: center;
-  padding-top: 2em
+  padding-top: 2em;
 }
 
-.contact-grid{
+.contact-grid {
   text-align: center;
   justify-content: center;
-  width: 100%;    
+  width: 100%;
   background: white;
-  color: black;  
+  color: black;
   margin-bottom: 20px;
 }
 
-.contact-grid h2{
-  font-family: "Anton",sans-serif;
+.contact-grid h2 {
+  font-family: "Anton", sans-serif;
 }
 
-.contact-grid p{
-  font-family: "Oxygen",sans-serif;
+.contact-grid p {
+  font-family: "Oxygen", sans-serif;
   font-weight: bold;
 }
 
-.contact-grid hr{
+.contact-grid hr {
   border-top: 5px dotted black;
   margin: auto;
   width: 50%;
 }
 
-.contact-list{
+.contact-list {
   /* border:1px solid black; */
   padding: 0 22%;
 }
-.contact-list i{  
-  font-size: 66px;  
+.contact-list i {
+  font-size: 66px;
   padding-right: 2rem;
 }
 /* Contacts page css */
 
 /* Resume page css */
-.resume-left-col a{
+.resume-left-col a {
   text-decoration: none;
   transition: 0.2s all ease-in-out;
 }
 
-.resume-left-col a:hover{
+.resume-left-col a:hover {
   color: #333;
   text-decoration: none;
 }
 
-.resume-right-col{
+.resume-right-col {
   background: #393235;
   color: white;
   padding: 2em;
 }
 
-.resume-right-col a{  
-  text-decoration: none;  
+.resume-right-col a {
+  text-decoration: none;
   transition: 0.2s all linear;
 }
 
-
-.resume-right-col a:hover{
-  color:#aaa;
+.resume-right-col a:hover {
+  color: #aaa;
   text-decoration: none;
   font-size: 1.2rem;
 }
 /* Resume page css */
 @media only screen and (max-width: 800px) {
-  .landing-grid{
-    position: relative;
+  .landing-grid {
   }
-  .social-links{
+  .social-links {
     justify-content: space-around;
   }
-  .banner-text h1{
-    font-size: 36px;        
+  .banner-text {
+    width: 95%;
   }
-  .social-links i{    
+  .banner-text h1 {
+    font-size: 36px;
+  }
+  .social-links i {
     font-size: 3em;
     padding: 5px;
   }
-  .projects-grid{
-    flex-direction: column;    
+  .projects-grid {
+    flex-direction: column;
   }
-  .projects-grid .card{
-    margin-bottom: 20px !important;    
+  .projects-grid .card {
+    margin-bottom: 20px !important;
   }
 
-  .projects-grid .card .link{
+  .projects-grid .card .link {
     text-decoration: none;
   }
-  .contact-list{    
-    padding: 0
+  .contact-list {
+    padding: 0;
   }
-  .contact-list i{  
+  .contact-list i {
     font-size: 40px;
     /* padding-right: 2rem; */
-  }  
+  }
 }
