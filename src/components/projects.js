@@ -377,6 +377,40 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
+          {/*Project #3*/}
+          <Card
+            shadow={5}
+            style={{ minWidth: "450", margin: "auto" }}
+            className="card"
+          >
+            <CardTitle
+              expand
+              style={{
+                color: "#fff",
+                height: "176px",
+                background: "#333"
+              }}
+            >
+              {/*bottom right 15% no-repeat #46B6AC*/}
+              Task Manager API
+            </CardTitle>
+            <CardText>RESTfull API in Node.js with token based authentication</CardText>
+            <CardActions border>
+              <Button colored>
+                <a
+                  href="https://deepak-task-manager.herokuapp.com/"
+                  style={{ textDecoration: "none" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LiveDemo
+                </a>
+              </Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
         </div>
       );
     }
