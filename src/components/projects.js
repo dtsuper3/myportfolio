@@ -259,6 +259,51 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
+          {/*Project #3*/}
+          <Card
+            shadow={5}
+            style={{ minWidth: "450", margin: "auto" }}
+            className="card"
+          >
+            <CardTitle
+              expand
+              style={{
+                color: "#fff",
+                height: "176px",
+                background: "#333",
+                minHeight: "200"
+              }}
+            >
+              {/*bottom right 15% no-repeat #46B6AC*/}
+              Expensify
+            </CardTitle>
+            <CardText>Manage your expenses using Expensify</CardText>
+            <CardActions border>
+              {/* <Button colored>
+                <a
+                  href="https://github.com/dtsuper3/react-store-cart"
+                  style={{ textDecoration: "none" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub
+                </a>
+              </Button> */}
+              <Button colored>
+                <a
+                  href="https://expensify-react-redux.netlify.com/"
+                  style={{ textDecoration: "none" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LiveDemo
+                </a>
+              </Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
         </div>
       );
     } else if (this.state.activeTab === 2) {
